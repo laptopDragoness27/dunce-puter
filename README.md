@@ -49,3 +49,7 @@ Instructions and their specifications (finally the good part):
 # construction
 
 The final product I will make will be on a pcb, most likely using individual transistors. However, the design could be made in pretty much anything. It could be made of vacuum tubes, relays, TTL chips, or even Minecraft redstone. The pcb will be a single or double-sided pcb, depending on which is a better fit for the project (cost, size, etc.).
+
+# optimization
+
+This project qualifies for the "optimization" sidequest of the Flavourtown event as its explicit goal is to optimize for as few transistors needed to make a functioning, turing-complete, CPU
