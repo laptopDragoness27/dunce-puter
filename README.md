@@ -36,7 +36,7 @@ Instructions and their specifications (finally the good part):
 
 1. NOP (opcode: 00000): no operation. That's it... what else do I explain?
 
-2. INV [adr] (opcode: 10000): inverts the bit specified in the operand. If its value is 0, it will be changed to a 1 and vice-versa.
+2. INV (opcode: 10000): inverts the bit in the accumulator.
 
 3. LDA [adr] (opcode: 01000): sets the accumulator to the bit at the address specified by the operand. This value will be used by other instructions.
 
