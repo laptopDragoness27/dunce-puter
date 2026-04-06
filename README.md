@@ -11,6 +11,8 @@ Stages:
 
  -make logic diagram (perhaps in something like Logisim Evolution)
 
+ -make schematic for the future processor
+
  -design PCB for processor
 
  -Assemble the final design (or some other way to prove it works, this is where I'll "ship" the project as it is in a working state)
@@ -43,3 +45,7 @@ Instructions and their specifications (finally the good part):
 5. JNZ [ins] (opcode: 00010): jumps to the instruction specified by the operand if the accumulator is equal to zero. Otherwise, nothing will happen.
 
 6. END (opcode: 00001): ends all operations of the computer. That's all, folks!
+
+# construction
+
+The final product I will make will be on a pcb, most likely using individual transistors. However, the design could be made in pretty much anything. It could be made of vacuum tubes, relays, TTL chips, or even Minecraft redstone. The pcb will be a single or double-sided pcb, depending on which is a better fit for the project (cost, size, etc.).
