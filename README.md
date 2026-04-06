@@ -8,9 +8,13 @@ The development of this will probably go in some stages, slowly going from a gen
 
 Stages:
  -design of architecture of processor
+
  -make logic diagram (perhaps in something like Logisim Evolution)
+
  -design PCB for processor
+
  -Assemble the final design
+ 
  -Develop some testing programs
 
 # how I calculate transistor count
