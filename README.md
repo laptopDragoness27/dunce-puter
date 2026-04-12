@@ -44,7 +44,7 @@ Instructions and their specifications (finally the good part):
 
 5. JNZ [ins] (opcode: 00010): jumps to the instruction specified by the operand if the accumulator is equal to zero. Otherwise, nothing will happen.
 
-6. END (opcode: 00001): ends all operations of the computer. That's all, folks!
+6. RST (opcode: 00001): resets the values in RAM as well as acc. Can be used with a JNZ instruction to fully reset the program and computer.
 
 # construction
 
