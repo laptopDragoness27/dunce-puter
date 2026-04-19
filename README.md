@@ -7,9 +7,9 @@ A cpu with as few transistors as possible, while technically turing-complete it 
 The development of this will probably go in some stages, slowly going from a general idea to an actual project.
 
 Stages:
- -design of architecture of processor
+ -design of architecture of processor :3 DONE!
 
- -make logic diagram (perhaps in something like Logisim Evolution)
+ -make logic diagram (perhaps in something like Logisim Evolution) :3 DONE!
 
  -make schematic for the future processor
 
@@ -36,15 +36,15 @@ Instructions and their specifications (finally the good part):
 
 1. NOP (opcode: 00000): no operation. That's it... what else do I explain?
 
-2. INV (opcode: 10000): inverts the bit in the accumulator.
+2. INV (opcode: 00001): inverts the bit in the accumulator.
 
-3. LDA [adr] (opcode: 01000): sets the accumulator to the bit at the address specified by the operand. This value will be used by other instructions.
+3. LDA [adr] (opcode: 00010): sets the accumulator to the bit at the address specified by the operand. This value will be used by other instructions.
 
 4. STR [adr] (opcode: 00100): sets the bit at the address specified by the operand to the value in the accumulator.
 
-5. JNZ [ins] (opcode: 00010): jumps to the instruction specified by the operand if the accumulator is equal to zero. Otherwise, nothing will happen.
+5. JNZ [ins] (opcode: 01000): jumps to the instruction specified by the operand if the accumulator is equal to zero. Otherwise, nothing will happen.
 
-6. RST (opcode: 00001): resets the values in RAM as well as acc. Can be used with a JNZ instruction to fully reset the program and computer.
+6. RST (opcode: 10000): resets the values in RAM as well as acc. Can be used with a JNZ instruction to fully reset the program and computer.
 
 # construction
 
