@@ -1,5 +1,4 @@
 from pathlib import Path
-from intelhex import IntelHex
 
 #ISA definitions
 instructions = {"NOP":int('00000',2),"INV":int('00001',2),"LDA":int('00010',2),"STR":int('00100',2),"JNZ":int('01000',2),"RST":int('10000',2)}
